@@ -55,15 +55,31 @@ reúso de água em seus processos">
   <!-- Custom styles for this template -->
   <link href="assets/res/css/custom.css" rel="stylesheet">
 
+  <!-- Cookies -->
+  <link rel='stylesheet' type='text/css' href='https://cdn-prod.securiti.ai/consent/cookie-consent.css' />
+
 
   <title>Prêmio Fiesp de Mérito Ambiental </title>
 
 
-
+  <script type="text/javascript" src="https://cdn-prod.securiti.ai/consent/auto_blocking//83bd9851-05b3-4176-9b83-e40544abfd6b/e59f6fca-9133-4d83-8e6d-ddd0f0935f4c.js"></script>
 
 </head>
 
 <body>
+  <script>
+    (function () {
+      var s = document.createElement('script');
+      s.src = 'https://cdn-prod.securiti.ai/consent/cookie-consent-sdk.js';
+      s.setAttribute('data-tenant-uuid', '83bd9851-05b3-4176-9b83-e40544abfd6b');
+      s.setAttribute('data-domain-uuid', 'e59f6fca-9133-4d83-8e6d-ddd0f0935f4c');
+      s.setAttribute('data-backend-url', 'https://app.securiti.ai');
+      s.defer = true;
+      var parent_node = document.head || document.body;
+      parent_node.appendChild(s);
+      s.addEventListener('load', function() { window.initCmp(); });
+    })()
+    </script>
   <!-- BARRA FIESP -->
   <section id="navegacao" class="navegacao-portais fiesp">
     <div class="container-fluid">
@@ -539,7 +555,7 @@ reúso de água em seus processos">
   <!-- Footer -->
   <footer class="py-5">
     <div class="container-fluid text-center">
-    <img src="assets/res/images/logo-fiesp-ciesp-footer.png">
+    <img src="assets/res/images/logo-fiesp-ciesp-footer.png"><br><br><button class="cmp-revoke-consent btn btn-revoke btn-sm">Redefinir consentimento de cookies</button>
   </div>
     <!-- /.container -->
   </footer>

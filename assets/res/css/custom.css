@@ -64,8 +64,26 @@ fieldset[disabled] .btn-primary.active {
   border-color: #488548;
 }
 
-  
+ 
+/* BTN REDEFINIR COOKIES */
+.cmp-revoke-consent {
+  position: relative !important;
+  right: 0;
+  left: 0 !important;
+  bottom: 0 !important;
+  color: #999;
+  padding: 2px 6px !important;
+  margin: 0 !important;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: transparent;
+  border-color: #ccc;
+}
 
+.cmp-revoke-consent:hover {
+  background-color: #fff;
+  border-color: #EFEEEE;
+}
 
 #topo {
   height: 70vh;
@@ -137,7 +155,7 @@ fieldset[disabled] .btn-primary.active {
 
     #projetos .card-header {
       font-size: 1.5rem;
-      font-family: color:#336633;
+      font-family: #336633;
       font-family: 'Barlow Condensed', sans-serif;
     }
 
